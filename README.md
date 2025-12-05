@@ -18,28 +18,6 @@ A full-featured Laravel-based web application for managing student internship ap
 - **Authentication:** Laravel Sanctum / Session-based  
 - **Notifications:** Laravel Notification system (email & in-app)  
 
-### 📁 Project Structure  
-```
-app/
-├── Http/Controllers/
-│   ├── InternshipController.php
-│   ├── AuthController.php
-│   └── AdminController.php
-├── Models/
-│   ├── User.php
-│   ├── Internship.php
-│   └── Skill.php
-resources/views/
-├── auth/
-├── internships/
-├── admin/
-└── layouts/
-public/
-├── css/
-├── js/
-└── uploads/
-```
-
 ### 🚀 Getting Started  
 1. Clone the repository  
 2. Run `composer install`  
