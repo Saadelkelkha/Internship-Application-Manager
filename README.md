@@ -1,4 +1,4 @@
-## 📄 Internship Request Management Platform — Cadi Ayyad University  
+## 📄 Internship Request Management Platform
 A web-based platform designed to streamline internship applications and management for students at **Université Cadi Ayyad, Marrakech**.  
 
 ### ✨ Features  
