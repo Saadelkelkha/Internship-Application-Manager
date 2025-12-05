@@ -1,7 +1,3 @@
-Here’s a GitHub-ready description for this project based on the provided PDF content:
-
----
-
 ## 📄 Internship Request Management Platform — Cadi Ayyad University  
 A web-based platform designed to streamline internship applications and management for students at **Université Cadi Ayyad, Marrakech**.  
 
