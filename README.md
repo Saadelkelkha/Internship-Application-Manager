@@ -1,25 +1,52 @@
-## 📄 Internship Request Management Platform
-A web-based platform designed to streamline internship applications and management for students at **Université Cadi Ayyad, Marrakech**.  
+## 🎓 Internship Request Management Platform — Cadi Ayyad University  
+A full-featured Laravel-based web application for managing student internship applications at **Université Cadi Ayyad, Marrakech**.
 
 ### ✨ Features  
-- **User Registration & Authentication** – Secure sign-up, login, and password reset functionality  
-- **Internship Application Form** – Submit applications with personal details, institution, dates, skills, and document uploads (motivation letter, recommendation letter)  
-- **Dashboard for Requests** – View and manage submitted applications with filtering and search capabilities  
-- **Real-Time Notifications** – Receive updates on application status  
-- **Admin/User Views** – Separate interfaces for students and administration to track and review applications  
+- **User Authentication** – Register, login, and password reset with email verification  
+- **Internship Application System** – Dynamic form with file uploads (CV, motivation letter, recommendation)  
+- **Dashboard & Admin Panel** – Separate views for students and admins with search, filters, and action buttons  
+- **Real-Time Notifications** – Laravel notifications for application status updates  
+- **Skill Rating System** – Visual skill ratings (e.g., Docker 3.5★, Laravel 5.0★)  
+- **Responsive UI** – Built with Bootstrap for mobile-friendly experience  
+- **Interactive Tables** – JavaScript-powered sorting, searching, and pagination  
 
-### 🛠️ Tech Stack (Inferred)  
-- Frontend: HTML, CSS (form-based UI)  
-- Backend: Likely PHP (given university context)  
-- Database: MySQL or similar  
-- Features: File upload, session management, responsive tables  
+### 🛠️ Tech Stack  
+- **Backend:** Laravel (PHP)  
+- **Frontend:** Bootstrap 5, JavaScript  
+- **Database:** MySQL  
+- **File Storage:** Local / Cloud (configurable)  
+- **Authentication:** Laravel Sanctum / Session-based  
+- **Notifications:** Laravel Notification system (email & in-app)  
 
-### 📌 Pages Overview  
-1. **Login / Signup** – Account creation and access  
-2. **Password Reset** – Email-based recovery flow  
-3. **Internship Request Form** – Multi-field application submission  
-4. **Request List** – Tabular view with search and filtering  
-5. **Admin Panel** – Review applications with skill ratings (e.g., Docker, Laravel, Cloud)  
+### 📁 Project Structure  
+```
+app/
+├── Http/Controllers/
+│   ├── InternshipController.php
+│   ├── AuthController.php
+│   └── AdminController.php
+├── Models/
+│   ├── User.php
+│   ├── Internship.php
+│   └── Skill.php
+resources/views/
+├── auth/
+├── internships/
+├── admin/
+└── layouts/
+public/
+├── css/
+├── js/
+└── uploads/
+```
 
-### 🎯 Purpose  
-To digitalize and simplify the internship application process for students and administrative staff, improving transparency, efficiency, and user experience.  
+### 🚀 Getting Started  
+1. Clone the repository  
+2. Run `composer install`  
+3. Copy `.env.example` to `.env` and configure database  
+4. Run `php artisan migrate --seed`  
+5. Run `npm install && npm run dev`  
+6. Serve with `php artisan serve`  
+
+### 🎯 Goal  
+To digitize and automate the internship request process, reducing paperwork, improving tracking, and enhancing communication between students and university administration.
