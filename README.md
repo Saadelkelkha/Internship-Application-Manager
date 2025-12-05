@@ -23,10 +23,3 @@ A web-based platform designed to streamline internship applications and manageme
 
 ### 🎯 Purpose  
 To digitalize and simplify the internship application process for students and administrative staff, improving transparency, efficiency, and user experience.  
-
-### 📄 Note  
-This repository contains UI mockups and form structures extracted from a PDF prototype. Implementation logic and backend integration would be needed for a fully functional system.
-
----
-
-Let me know if you’d like a README.md file formatted with this content.
